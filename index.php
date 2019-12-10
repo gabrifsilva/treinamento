@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
-    <title>Exemplo</title>
+    <title>Exemplo prático</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -30,7 +30,7 @@
     </nav>
 </header>
     <h1>
-		<p>Teste</p>
+		<p>Teste 09.12.19</p>
         <?php
             if(isset($_GET["user"])) {
                 echo base64_decode($_GET["user"]);
